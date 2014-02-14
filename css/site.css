@@ -5,7 +5,7 @@ body {
     background-repeat: repeat-x repeat-y;
 }
 
-header, div.row {
+footer, header, div.row {
     background-color: rgba(249,253,255,.8); /*#F9FDFF;*/
     webkit-box-shadow: 0 0 10px rgba(0,0,0,0.08);
     -moz-box-shadow: 0 0 10px rgba(0,0,0,0.08);
@@ -13,17 +13,85 @@ header, div.row {
 }
 
 header {
-    border-bottom: 3px double #FD361C;
+    background-color: rgba(249,253,255,.2); /*#F9FDFF;*/
+    border-bottom: 3px double #CDCDCD; /*#FD361C*/
+}
+
+nav {
+    background-color: rgba(249,253,255,.8); /*#F9FDFF;*/
+    border-bottom: 1px solid #CDCDCD; /*#FD361C*/
+}
+
+div.magellan-container {
+	background-color: transparent;
+}
+
+div.magellan-container.fixed {
+	background-color: #F9FDFF;
+    webkit-box-shadow: 0 0 2px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 0 2px rgba(0,0,0,0.08);
+    box-shadow: 0 0 2px rgba(0,0,0,0.08)
+}
+
+dl.sub-nav dd {
+	margin: 0 .75rem 0 .75rem;
+}
+
+footer {
+    background-color: rgba(249,253,255,.2); /*#F9FDFF;*/
+    border-top: 3px double #CDCDCD; /*#FD361C*/
+	padding-top: .75em;
+	text-align: center;
+}
+
+footer p {
+	font-size: 8pt;
+}
+
+div.row {
+	padding-top: 2em;
+}
+
+h1, h2, h3 {
     font-family: 'PT Serif Caption', serif;
+}
+
+h1 {
+	font-size: 4.5rem;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.75rem;
+	text-align: center;
+    border-bottom: 1px solid rgba(253,54,28,.20); /* #FD361C; */
+	font-style: italic;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin: 0;
+}
+
+ul#advisors li {
+    list-style: none;
+	margin: .25rem .75rem 0 .75rem;
 }
 
 img.headshot {
     float: left;
-    padding: 1px;
+    padding: 0 .5rem 0 .5rem;
+}
+
+p.about {
+    margin-left: 2em;
+	margin-right: 2em;
 }
 
 ul#expertise li {
     list-style-image: url("../img/chevron-dark.png");
+    margin-left: 2em;
+	margin-right: 2em;
 }
 
 ul#expertise li:hover {
@@ -31,7 +99,34 @@ ul#expertise li:hover {
     color: #4B79A1;
 }
 
-ul#bios li {
-    list-style: none;
-    clear: left;
+dl#contact dt {
+    vertical-align: top;
+    display: inline-block;
+    width: 35%;
+    font-size: 10pt;
+    padding-left: 2rem; 
 }
+
+dl#contact dd {
+    vertical-align: top;
+    display: inline-block;
+    width: 65%;
+    font-size: 11pt;
+}
+
+dl#contact dd, dl#links dd {
+    margin-bottom: .10rem;
+}
+
+ul#talks, ul#links {
+    list-style: none;
+    margin-left: 2em;
+	margin-right: 2em;
+    margin-bottom: .5rem;
+}
+
+ul#talks li, ul#links li {
+    font-size: 10pt;
+    padding-bottom: 10px;
+}
+
