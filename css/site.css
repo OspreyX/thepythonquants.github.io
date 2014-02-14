@@ -126,6 +126,7 @@ ul#talks, ul#links {
 }
 
 ul#talks li, ul#links li {
+    font-size: .9rem;
     padding-bottom: 10px;
 }
 
