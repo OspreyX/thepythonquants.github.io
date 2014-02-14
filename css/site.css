@@ -1,0 +1,37 @@
+/* http://www.colourlovers.com/palette/3244404/tocando_cielo */
+
+body {
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat-x repeat-y;
+}
+
+header, div.row {
+    background-color: rgba(249,253,255,.8); /*#F9FDFF;*/
+    webkit-box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    box-shadow: 0 0 10px rgba(0,0,0,0.08)
+}
+
+header {
+    border-bottom: 3px double #FD361C;
+    font-family: 'PT Serif Caption', serif;
+}
+
+img.headshot {
+    float: left;
+    padding: 1px;
+}
+
+ul#expertise li {
+    list-style-image: url("../img/chevron-dark.png");
+}
+
+ul#expertise li:hover {
+    list-style-image: url("../img/chevron-light.png");
+    color: #4B79A1;
+}
+
+ul#bios li {
+    list-style: none;
+    clear: left;
+}
