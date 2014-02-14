@@ -1,14 +1,12 @@
 /* http://www.colourlovers.com/palette/3244404/tocando_cielo */
 
 body {
-    background-image: url("../img/pattern.png");
+    background-image: url("/img/pattern.png");
     background-repeat: repeat-x repeat-y;
 }
 
 footer, header, div.row {
     background-color: rgba(249,253,255,.8); /*#F9FDFF;*/
-    webkit-box-shadow: 0 0 10px rgba(0,0,0,0.08);
-    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.08);
     box-shadow: 0 0 10px rgba(0,0,0,0.08)
 }
 
@@ -28,8 +26,6 @@ div.magellan-container {
 
 div.magellan-container.fixed {
 	background-color: #F9FDFF;
-    webkit-box-shadow: 0 0 2px rgba(0,0,0,0.08);
-    -moz-box-shadow: 0 0 2px rgba(0,0,0,0.08);
     box-shadow: 0 0 2px rgba(0,0,0,0.08)
 }
 
@@ -89,13 +85,13 @@ p.about {
 }
 
 ul#expertise li {
-    list-style-image: url("../img/chevron-dark.png");
+    list-style-image: url("/img/chevron-dark.png");
     margin-left: 2em;
 	margin-right: 2em;
 }
 
 ul#expertise li:hover {
-    list-style-image: url("../img/chevron-light.png");
+    list-style-image: url("/img/chevron-light.png");
     color: #4B79A1;
 }
 
