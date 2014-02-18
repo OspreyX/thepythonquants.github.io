@@ -88,8 +88,8 @@ p {
 }
 
 p.about {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .sub-nav dd, li {
@@ -99,8 +99,8 @@ p.about {
 ul#expertise li {
     font-size: 16pt;
     list-style-image: url("/img/chevron-dark.png");
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 ul#expertise li:hover {
@@ -131,8 +131,8 @@ dl#contact dd, dl#links dd {
 
 ul#talks, ul#links {
     list-style: none;
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
     margin-bottom: .5rem;
 }
 
