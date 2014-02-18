@@ -23,31 +23,31 @@ nav {
 }
 
 div.magellan-container {
-	background-color: transparent;
+    background-color: transparent;
 }
 
 div.magellan-container.fixed {
-	background-color: #F9FDFF;
+    background-color: #F9FDFF;
     box-shadow: 0 0 2px rgba(0,0,0,0.08)
 }
 
 dl.sub-nav dd {
-	margin: 0 .75rem 0 .75rem;
+    margin: 0 .75rem 0 .75rem;
 }
 
 footer {
     background-color: rgba(249,253,255,.2); /*#F9FDFF;*/
     border-top: 3px double #CDCDCD; /*#FD361C*/
-	padding-top: .75em;
-	text-align: center;
+    padding-top: .75em;
+    text-align: center;
 }
 
 footer p {
-	font-size: 8pt;
+    font-size: 8pt;
 }
 
 div.row {
-	padding-top: 2em;
+    padding-top: 2em;
 }
 
 h1, h2, h3 {
@@ -55,25 +55,25 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 4.5rem;
-	text-align: center;
+    font-size: 4.5rem;
+    text-align: center;
 }
 
 h2 {
-	font-size: 2rem;
-	text-align: center;
+    font-size: 2rem;
+    text-align: center;
     border-bottom: 1px solid rgba(253,54,28,.20); /* #FD361C; */
-	font-style: italic;
+    font-style: italic;
 }
 
 h3 {
-	font-size: 16pt;
-	margin: 0;
+    font-size: 16pt;
+    margin: 0;
 }
 
 ul#advisors li {
     list-style: none;
-	margin: .25rem .75rem 0 .75rem;
+    margin: .25rem .75rem 0 .75rem;
 }
 
 img.headshot {
@@ -82,24 +82,25 @@ img.headshot {
 }
 
 p {
-	font-size: 16pt;
-	font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+    font-family: 'Lato', sans-serif;
+	text-align: justify;
 }
 
 p.about {
     margin-left: 2em;
-	margin-right: 2em;
+    margin-right: 2em;
 }
 
 .sub-nav dd, li {
-	font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 ul#expertise li {
-	font-size: 16pt;
+    font-size: 16pt;
     list-style-image: url("/img/chevron-dark.png");
     margin-left: 2em;
-	margin-right: 2em;
+    margin-right: 2em;
 }
 
 ul#expertise li:hover {
@@ -108,7 +109,7 @@ ul#expertise li:hover {
 }
 
 dl#contact dt {
-	font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     vertical-align: top;
     display: inline-block;
     width: 35%;
@@ -117,7 +118,7 @@ dl#contact dt {
 }
 
 dl#contact dd {
-	font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     vertical-align: top;
     display: inline-block;
     width: 65%;
@@ -131,12 +132,12 @@ dl#contact dd, dl#links dd {
 ul#talks, ul#links {
     list-style: none;
     margin-left: 2em;
-	margin-right: 2em;
+    margin-right: 2em;
     margin-bottom: .5rem;
 }
 
 ul#talks li, ul#links li {
-	font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 14pt;
     padding-bottom: 10px;
 }
